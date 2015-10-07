@@ -118,7 +118,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bonus.cpp" />
+    <ClCompile Include="control.cpp" />
+    <ClCompile Include="ennemi.cpp" />
+    <ClCompile Include="hub.cpp" />
+    <ClCompile Include="joueur.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="missile.cpp" />
+    <ClCompile Include="niveau.cpp" />
+    <ClCompile Include="son.cpp" />
+    <ClCompile Include="terrain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bonus.h" />
+    <ClInclude Include="control.h" />
+    <ClInclude Include="ennemi.h" />
+    <ClInclude Include="hub.h" />
+    <ClInclude Include="joueur.h" />
+    <ClInclude Include="missile.h" />
+    <ClInclude Include="niveau.h" />
+    <ClInclude Include="son.h" />
+    <ClInclude Include="terrain.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
