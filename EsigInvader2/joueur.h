@@ -3,6 +3,6 @@ class joueur
 {
 public:
 	joueur();
-	virtual ~joueur();
+	~joueur();
 };
 

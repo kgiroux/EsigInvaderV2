@@ -3,6 +3,6 @@ class ennemi
 {
 public:
 	ennemi();
-	virtual ~ennemi();
+	~ennemi();
 };
 
