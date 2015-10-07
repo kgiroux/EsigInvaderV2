@@ -6,6 +6,9 @@ Loader::Loader()
 {
 }
 
+Loader::Loader(int hello)
+{
+}
 
 Loader::~Loader()
 {
