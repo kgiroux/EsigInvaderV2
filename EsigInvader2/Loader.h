@@ -12,6 +12,7 @@ public:
 	Loader();
 	Loader(int hello);
 	~Loader();
+
 private :
 	list<niveau> listLv;
 	joueur player;
