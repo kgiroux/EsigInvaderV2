@@ -1,0 +1,25 @@
+﻿La génération a démarré 07/10/2015 11:49:23.
+     1>Projet "C:\Users\kevin\Documents\GitHubVisualStudio\EsigInvaderV2\EsigInvader2\EsigInvader2.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\kevin\Documents\GitHubVisualStudio\EsigInvaderV2\packages\SDL.1.2.15.16\build\native\../..//build/native/include/ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D HAS_SDL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kevin\Documents\GitHubVisualStudio\EsigInvaderV2\Debug\EsigInvader2.exe" /INCREMENTAL /NOLOGO C:\Users\kevin\Documents\GitHubVisualStudio\EsigInvaderV2\packages\SDL.1.2.15.16\build\native\../..//build/native/lib/Win32\v140\Debug\SDL.lib C:\Users\kevin\Documents\GitHubVisualStudio\EsigInvaderV2\packages\SDL.1.2.15.16\build\native\../..//build/native/lib/Win32\v140\Debug\Application\NoStdioRedirect\SDLmain.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\kevin\Documents\GitHubVisualStudio\EsigInvaderV2\Debug\EsigInvader2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kevin\Documents\GitHubVisualStudio\EsigInvaderV2\Debug\EsigInvader2.lib" /MACHINE:X86 Debug\armes.obj
+         Debug\bonus.obj
+         Debug\control.obj
+         Debug\ennemi.obj
+         Debug\hub.obj
+         Debug\joueur.obj
+         Debug\Loader.obj
+         Debug\main.obj
+         Debug\missile.obj
+         Debug\mouvement.obj
+         Debug\niveau.obj
+         Debug\son.obj
+         Debug\terrain.obj
+     1>LINK : fatal error LNK1561: le point d'entrÚe doit Ûtre dÚfini
+     1>Génération du projet "C:\Users\kevin\Documents\GitHubVisualStudio\EsigInvaderV2\EsigInvader2\EsigInvader2.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:01.17
