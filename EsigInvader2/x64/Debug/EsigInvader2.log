@@ -1,0 +1,22 @@
+﻿La génération a démarré 07/10/2015 11:49:44.
+     1>Projet "C:\Users\Cyril\Source\Repos\EsigInvaderV2\EsigInvader2\EsigInvader2.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Cyril\Source\Repos\EsigInvaderV2\x64\Debug\EsigInvader2.exe" /INCREMENTAL /NOLOGO C:\Users\Cyril\Source\Repos\EsigInvaderV2\packages\SDL.1.2.15.16\build\native\../..//build/native/lib/x64\v120\Debug\SDL.lib C:\Users\Cyril\Source\Repos\EsigInvaderV2\packages\SDL.1.2.15.16\build\native\../..//build/native/lib/x64\v120\Debug\Application\NoStdioRedirect\SDLmain.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Cyril\Source\Repos\EsigInvaderV2\x64\Debug\EsigInvader2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Cyril\Source\Repos\EsigInvaderV2\x64\Debug\EsigInvader2.lib" /MACHINE:X64 x64\Debug\armes.obj
+         x64\Debug\bonus.obj
+         x64\Debug\control.obj
+         x64\Debug\ennemi.obj
+         x64\Debug\hub.obj
+         x64\Debug\joueur.obj
+         x64\Debug\Loader.obj
+         x64\Debug\main.obj
+         x64\Debug\missile.obj
+         x64\Debug\mouvement.obj
+         x64\Debug\niveau.obj
+         x64\Debug\son.obj
+         x64\Debug\terrain.obj
+     1>LINK : fatal error LNK1561: le point d'entrée doit être défini
+     1>Génération du projet "C:\Users\Cyril\Source\Repos\EsigInvaderV2\EsigInvader2\EsigInvader2.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:00.11
