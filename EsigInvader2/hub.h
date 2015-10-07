@@ -4,5 +4,7 @@ class hub
 public:
 	hub();
 	~hub();
+private : 
+
 };
 

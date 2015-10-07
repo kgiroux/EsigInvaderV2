@@ -4,5 +4,7 @@ class son
 public:
 	son();
 	~son();
+private : 
+
 };
 

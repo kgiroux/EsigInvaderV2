@@ -118,24 +118,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="armes.cpp" />
     <ClCompile Include="bonus.cpp" />
     <ClCompile Include="control.cpp" />
     <ClCompile Include="ennemi.cpp" />
     <ClCompile Include="hub.cpp" />
     <ClCompile Include="joueur.cpp" />
+    <ClCompile Include="Loader.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="missile.cpp" />
+    <ClCompile Include="mouvement.cpp" />
     <ClCompile Include="niveau.cpp" />
     <ClCompile Include="son.cpp" />
     <ClCompile Include="terrain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="armes.h" />
     <ClInclude Include="bonus.h" />
     <ClInclude Include="control.h" />
     <ClInclude Include="ennemi.h" />
     <ClInclude Include="hub.h" />
     <ClInclude Include="joueur.h" />
+    <ClInclude Include="Loader.h" />
     <ClInclude Include="missile.h" />
+    <ClInclude Include="mouvement.h" />
     <ClInclude Include="niveau.h" />
     <ClInclude Include="son.h" />
     <ClInclude Include="terrain.h" />
