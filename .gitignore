@@ -21,4 +21,8 @@
 *.out
 *.app
 *.opensdf
+
+# Other
+*.ilk
+*.pdb
 /EsigInvader2/Debug
