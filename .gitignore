@@ -26,4 +26,5 @@
 *.ilk
 *.pdb
 *.sdf
+*.suo
 /EsigInvader2/Debug
