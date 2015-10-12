@@ -4,18 +4,12 @@
 
 DataCollector::DataCollector()
 {
-		openFiles();
+		//openFiles();
 }
 
 
 DataCollector::~DataCollector()
 {
-}
-
-void DataCollector::openFiles() {
-	time_t timestamp = std::time(0);
-	std::stringstream ss;
-	ss << timestamp;
 }
 
 
