@@ -1,7 +1,6 @@
 #include <iostream>
 #include "SDL2/SDL.h"
-
-#include <SDL2/SDL.h>
+#include "myo\libmyo.h"
 
 #include <stdio.h>
 
@@ -17,7 +16,7 @@ int main(int argc, char** argv)
 	{
 		/* Création de la fenêtre */
 		SDL_Window* pWindow = NULL;
-		pWindow = SDL_CreateWindow("Ma première application SDL2", SDL_WINDOWPOS_UNDEFINED,
+		pWindow = SDL_CreateWindow("Ma premiere application SDL2", SDL_WINDOWPOS_UNDEFINED,
 			SDL_WINDOWPOS_UNDEFINED,
 			640,
 			480,
