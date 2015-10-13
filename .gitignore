@@ -28,3 +28,6 @@
 *.suo
 /EsigInvader2/Debug
 /EsigInvader2/x64/Debug/EsigInvader2.tlog
+*.user
+*.vcxproj
+*.vcxproj.filters
