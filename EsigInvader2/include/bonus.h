@@ -2,11 +2,11 @@
 #include<iostream>
 #include<string>
 using namespace std;
-class bonus
+class Bonus
 {
 public:
-	bonus();
-	~bonus();
+	Bonus();
+	~Bonus();
 	void setImage(const string image);
 	string getImage();
 

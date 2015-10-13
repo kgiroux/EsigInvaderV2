@@ -1,6 +1,6 @@
 #include <iostream>
-#include "SDL2/SDL.h"
-#include "myo\libmyo.h"
+#include "../SDL2/SDL.h"
+#include "../include/myo\libmyo.h"
 
 #include <stdio.h>
 

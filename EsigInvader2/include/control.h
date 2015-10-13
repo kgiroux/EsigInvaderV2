@@ -10,12 +10,12 @@
 #include <fstream>
 #include <time.h>
 #include <direct.h>
-#include "./include/myo/myo.hpp"
+#include "../include/myo/myo.hpp"
 
-class control
+class Control
 {
 public:
-	control();
-	~control();
+	Control();
+	~Control();
 };
 

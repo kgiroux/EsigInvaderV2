@@ -1,9 +1,9 @@
 #pragma once
-class hub
+class Hub
 {
 public:
-	hub();
-	~hub();
+	Hub();
+	~Hub();
 private : 
 
 };
