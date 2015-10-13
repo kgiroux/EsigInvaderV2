@@ -35,6 +35,6 @@ int main(int argc, char** argv)
 	}
 
 	SDL_Quit();
-
+	system("PAUSE");
 	return 0;
 }
