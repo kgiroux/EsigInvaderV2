@@ -25,7 +25,6 @@ int main(int argc, char** argv)
 		if (pWindow)
 		{
 			SDL_Delay(3000); /* Attendre trois secondes, que l'utilisateur voit la fenêtre */
-
 			SDL_DestroyWindow(pWindow);
 		}
 		else
