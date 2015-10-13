@@ -11,7 +11,6 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -28,4 +27,5 @@
 *.sdf
 *.suo
 /EsigInvader2/Debug
+/EsigInvader2/x64/Debug/EsigInvader2.tlog
 *.user
