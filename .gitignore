@@ -28,3 +28,4 @@
 *.sdf
 *.suo
 /EsigInvader2/Debug
+*.user
