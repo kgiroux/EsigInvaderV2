@@ -5,6 +5,8 @@ class armes
 {
 public:
 	armes(int level,string urlImage);
+	void downgrade(int level);
+	void upgrade();
 	armes();
 	~armes();
 private : 
