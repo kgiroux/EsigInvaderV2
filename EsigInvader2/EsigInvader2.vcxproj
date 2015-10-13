@@ -18,6 +18,35 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Bonus.h" />
+    <ClInclude Include="include\Control.h" />
+    <ClInclude Include="include\DataCollector.h" />
+    <ClInclude Include="include\Enemy.h" />
+    <ClInclude Include="include\Field.h" />
+    <ClInclude Include="include\Hub.h" />
+    <ClInclude Include="include\Level.h" />
+    <ClInclude Include="include\Loader.h" />
+    <ClInclude Include="include\Motion.h" />
+    <ClInclude Include="include\Player.h" />
+    <ClInclude Include="include\Sound.h" />
+    <ClInclude Include="include\Weapon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Bonus.cpp" />
+    <ClCompile Include="src\Control.cpp" />
+    <ClCompile Include="src\DataCollector.cpp" />
+    <ClCompile Include="src\Enemy.cpp" />
+    <ClCompile Include="src\Field.cpp" />
+    <ClCompile Include="src\Hub.cpp" />
+    <ClCompile Include="src\Level.cpp" />
+    <ClCompile Include="src\Loader.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Motion.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\Sound.cpp" />
+    <ClCompile Include="src\Weapon.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{09DCE7D6-5AB5-48B3-8E84-38DF51716198}</ProjectGuid>
     <RootNamespace>EsigInvader2</RootNamespace>
@@ -160,37 +189,6 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="armes.h" />
-    <ClInclude Include="bonus.h" />
-    <ClInclude Include="control.h" />
-    <ClInclude Include="ennemi.h" />
-    <ClInclude Include="hub.h" />
-    <ClInclude Include="include\DataCollector.h" />
-    <ClInclude Include="joueur.h" />
-    <ClInclude Include="Loader.h" />
-    <ClInclude Include="missile.h" />
-    <ClInclude Include="mouvement.h" />
-    <ClInclude Include="niveau.h" />
-    <ClInclude Include="son.h" />
-    <ClInclude Include="terrain.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="armes.cpp" />
-    <ClCompile Include="bonus.cpp" />
-    <ClCompile Include="control.cpp" />
-    <ClCompile Include="DataCollector.cpp" />
-    <ClCompile Include="ennemi.cpp" />
-    <ClCompile Include="hub.cpp" />
-    <ClCompile Include="joueur.cpp" />
-    <ClCompile Include="Loader.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="missile.cpp" />
-    <ClCompile Include="mouvement.cpp" />
-    <ClCompile Include="niveau.cpp" />
-    <ClCompile Include="son.cpp" />
-    <ClCompile Include="terrain.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
 </Project>
