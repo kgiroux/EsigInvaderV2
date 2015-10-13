@@ -54,6 +54,9 @@
     <ClInclude Include="include\DataCollector.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="armes.cpp">
@@ -66,9 +69,6 @@
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="DataCollector.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="ennemi.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="hub.cpp">
@@ -96,6 +96,9 @@
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="terrain.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
