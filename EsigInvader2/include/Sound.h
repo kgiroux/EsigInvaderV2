@@ -1,9 +1,9 @@
 #pragma once
-class son
+class Sound
 {
 public:
-	son();
-	~son();
+	Sound();
+	~Sound();
 private : 
 
 };

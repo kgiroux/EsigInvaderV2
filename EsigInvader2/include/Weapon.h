@@ -1,16 +1,18 @@
 #pragma once
 #include<string>
 using namespace std;
-class armes
+class Weapon
 {
 public:
-	armes(int level,string urlImage);
+	Weapon(int level,string urlImage);
 	void downgrade(int level);
 	void upgrade();
-	armes();
-	~armes();
+	Weapon();
+	~Weapon();
 private : 
 		unsigned int level;
 		string urlImage;
+		unsigned int damage;
+		const int speed = 15;
 };
 
