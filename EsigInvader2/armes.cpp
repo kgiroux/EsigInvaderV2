@@ -4,9 +4,11 @@
 
 armes::armes()
 {
+
 }
 
 
 armes::~armes()
 {
+
 }
