@@ -1,8 +1,9 @@
 #pragma once
 #include<iostream>
+#include"Motion.h"
 #include<string>
 using namespace std;
-class Bonus
+class Bonus : public Motion
 {
 public:
 	Bonus();
